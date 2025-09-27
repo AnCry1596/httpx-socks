@@ -34,12 +34,13 @@ setup(
     packages=['httpx_socks'],
     keywords='httpx asyncio socks socks5 socks4 http proxy',
     install_requires=[
-        'httpx>=0.28.0,<0.29.0',
-        'httpcore>=1.0,<2.0',
-        'python-socks>=2.0.0',
+        'httpx',
+        'httpcore',
+        'python-socks',
     ],
     extras_require={
-        'asyncio': ['async-timeout>=3.0.1'],
-        'trio': ['trio>=0.16.0'],
+        'asyncio': ['async-timeout'],
+        'trio': ['trio'],
+        'stealth': ['git+https://github.com/AnCry1596/httpx-tls.git'],
     },
 )
