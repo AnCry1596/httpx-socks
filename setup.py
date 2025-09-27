@@ -41,6 +41,6 @@ setup(
     extras_require={
         'asyncio': ['async-timeout'],
         'trio': ['trio'],
-        'stealth': ['git+https://github.com/AnCry1596/httpx-tls.git'],
+        'stealth': ['httpx-tls @ git+https://github.com/AnCry1596/httpx-tls.git'],
     },
 )
