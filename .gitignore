@@ -41,3 +41,5 @@ virtualenv.py
 .idea/
 .vscode/
 usage*.py
+__pycache__/
+.claude/
